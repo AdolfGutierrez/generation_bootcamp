@@ -1,0 +1,8 @@
+p{
+    color: red;
+}
+
+/* el . indica que es una clase y se necesita especificarla */
+.saludo{
+    color: green;
+}
