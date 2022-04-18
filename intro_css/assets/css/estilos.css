@@ -1,0 +1,57 @@
+/* !important es un selector que tiene la mayor jerarquia */
+
+/* selector universal "*" */
+ *{
+    background-color: blue;
+} 
+
+/* selector de clase con "." */
+.cuadrado{
+    width: 100px;
+    height: 100px;
+    background-color: cornflowerblue ;
+    border: 1px solid black;
+    border-radius: 5px;
+} 
+
+
+
+/* selector de id con "#" */
+#forma{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(255, 255, 255);
+
+}
+
+
+.color{
+    background-color: violet;
+}
+.color{
+    background-color: springgreen;
+}
+.color{
+    background-color: blueviolet;
+}
+
+.color-texto{
+    color: darkgoldenrod;
+    background-color: aqua
+}
+
+.forma{
+    height: 100px;
+    width: 300px;
+}
+.borde{
+    border: 3px solid black;
+    text-align: center;
+    line-height: 100px;
+}
+
+p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    font-weight: 20px;
+}
