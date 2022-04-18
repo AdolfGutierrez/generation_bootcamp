@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML avanzado</title>
+</head>
+<body>
+
+    <style>
+        table,tr,td,th{ 
+            border: 1px solid;
+        }
+
+    </style>
+
+    <!-- Etiqueta nav es para iniciar una navegación -->
+    <nav>
+        <ul>
+            <li>
+                <a href="#">Tablas</a>
+            </li>
+        </ul>
+
+    </nav>
+
+     <!-- direccionamiento interno con id -->
+    <h2 id="Tablas"> Tablas</h2>
+
+
+    <!-- crar tablas con 3 especificaciones. -->
+    <table>
+
+        <!-- thead = cabecera de la tabla--- 
+            tr = crear filas
+            th = cabecera
+            td = crear elementos en colunmas 
+             -->
+
+        <thead>
+            <tr>
+                <th>Cabecera1</th>
+                <th>Cabecera2</th>
+                <th>Cabecera3</th>
+
+            </tr>
+        </thead>
+
+        <!-- cuerpo de la tabla 
+            td = crear un elemento sobre colunmas de la tabl 
+        colspan es atributo de para expandir en columnas (derecha-izquierda)
+        rowspan es atributo de para expandir en filas (arriba-abajo) -->
+        <tbody>
+            <tr>
+                <td>A</td>
+                <td>B</td>
+                <td>C</td>
+            </tr>
+            <tr>
+                <td>D</td>
+                <td colspan="2">E</td>
+                <td rowspan="2">F</td>
+            </tr>
+
+        </tbody>
+
+        <!-- pie de la tabla -->
+        <tfoot>
+            <tr>
+                <td>Total</td>
+            </tr>
+        </tfoot>
+    </table>
+    
+    <hr>
+
+
+    <table>
+        <tr>
+            <th colspan="4">RECORDS</th>
+
+        </tr>
+        <tr>
+            <th>Year</th>
+            <th>Pianist</th>
+            <th>Label</th>
+            <th>Ref</th>
+
+        </tr>
+
+        <thead>
+            <tbody>
+                
+            <tr>
+                <td>1997</td>
+                <td>Konstain unodostres</td>
+                <td>Naxo deadcore</td>
+                <td>68</td>
+            </tr>
+            <tr>
+                <td>2000</td>
+                <td>Konstain</td>
+                <td>Naxo</td>
+                <td>68</td>
+            </tr>
+            <tr>
+                <td>2016</td>
+                <td>Konstain</td>
+                <td>Naxo</td>
+                <td>68</td>
+            </tr>
+            <tr>
+                <td>2021</td>
+                <td>Konstain</td>
+                <td>Naxo</td>
+                <td>68</td>
+            </tr>
+
+        
+            </tbody>
+            
+        </thead>
+
+        
+    </table>
+
+    <h3>Tablas con celdas extendidas</h3>
+
+
+    <table>
+        <thead>
+            <tbody>
+                
+                <tr>
+                    <td colspan="3"> alfa</td>
+                    <td>bravo</td>
+                    <td rowspan="2">charlie</td>
+                    
+                </tr>
+                <tr>
+                    <td>delta</td>
+                    <td>echo</td>
+                    <td>foxtrot</td>
+                    <td>golf</td>
+                </tr>
+                <tr>
+                    <td>hotel</td>
+                    <td colspan="3" rowspan="2">india</td>
+                    <td>juliet</td>
+                </tr>
+                <tr>
+                    <td>kilo</td>
+                    <td>lima</td>
+                </tr>
+                <tr>
+                    <td>mike</td>
+                    <td>november</td>
+                    <td>oscar</td>
+                    <td>papa</td>
+                    <td>quebec</td>
+                </tr>
+            </tbody>
+        </thead>
+
+
+    
+    </table>
+
+
+</body>
+</html>
