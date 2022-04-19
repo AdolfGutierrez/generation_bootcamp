@@ -1,0 +1,26 @@
+.form{
+    margin: 50px;
+}
+
+.formulario{
+    border: 5px solid green;
+    padding: 10px;
+    background-color: yellow;
+}
+.colorFondo{
+    background-color: rgb(86, 179, 171);
+    border: none;
+    border-radius: 5px;
+}
+.btn-eviar{
+    background-color: brown;
+    border: none;
+    padding: 10px;
+    margin: 20px;
+}
+.acomodoLabel{
+    display: inline-block;
+    width: 100px;
+    height: 30px;
+
+}
