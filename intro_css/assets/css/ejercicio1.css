@@ -1,6 +1,11 @@
-#forma1{
+#violeta{
     background-color: violet;
+
 }
-#forma2{
+#rojo{
     background-color: rgba(248, 67, 1, 0.671);
+}
+
+#rosa{
+    border: 3px palevioletred;
 }
