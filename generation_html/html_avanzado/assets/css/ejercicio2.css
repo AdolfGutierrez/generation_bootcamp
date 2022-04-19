@@ -1,14 +1,23 @@
 .Formulario{
     background-color: green;
     padding: 80px;
+    color: aliceblue;
 }
-.tiulo{
-    padding: 20px;
+.datosComprado{
+    padding: 10px;
+   
+    
 }
-.titulo1{
+.datosTarjeta{
     background-color: green;
 }
-.captura{
-    border: none;
-    
+.acomodo{
+    padding: 2px;
+    display: inline-block;
+    width: 80px;
+    height: autp;   
+}
+.contorno{
+    border-color: red;
+    padding: 2px;
 }
