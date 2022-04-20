@@ -1,0 +1,53 @@
+
+*{
+    box-sizing: border-box;
+}
+
+h1{
+    position: relative;
+}
+
+body{
+    position: relative;
+    top: 90px;
+}
+
+.cuadrado{
+    width: 100px;
+    height: 100px;
+    border: 1px solid black  
+}
+
+.div1{
+
+    /* 
+    bottom = acomodo de los elementos de arriba - abajo
+    position = indica si es estatico o permanente el acomodo de los elementos 
+    position absoluta = quita los px que no osupa el objeto y acomoda el objeto en los px quitados
+    position fixed = mantiene fijo el div al que se inserta
+    z-index = acomoda por capas respetando la jerarquia de > a <
+
+     */
+    
+    background-color: green;
+    /* position: relative;
+    bottom: 20px; */
+}
+
+.div2{
+    background-color: yellow;
+    /* position: fixed; */
+    position: sticky;
+    top: 200px;
+}
+
+.div3{
+    background-color: red;
+}
+
+.padre{
+    width: 500px;
+    height: 400px;
+    position: relative;
+}
+
