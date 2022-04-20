@@ -8,6 +8,7 @@
 
     <!-- CSS propios -->
     <link rel="stylesheet" href="assets/css/formularios.css">
+    <link rel="stylesheet" href="assets/js/main.js">
 </head>
 <body>
 
@@ -40,17 +41,6 @@
     <input type="submit" value="Mandar">
   </form>
 
-
-  <!-- se puede modificar internamente el documento en DOM con JS -->
-  <script>
-      const color = document.querySelector("#inputColor")
-      console.log(color)
-
-      color.addEventListener("change", function (e){
-          document.body.style.backgroundColor = e.target.value;
-      })
-  </script>
-
   <hr>
 
   <h1 class="form">Formulario</h1>
@@ -72,10 +62,13 @@
           <label class="acomodoLabel" for="correo">Correo</label>
           <input class="colorFondo" type="email" id="correo">
       </div>
+      <input type="checkbox" name="cheack" value="hola"Enviar>
       <div class="enviar">
           <input class="btn-eviar" type="submit" value="Enviar">
       </div>
   </form>
+
+  <script src="assets/js/main.js"></script>
 
 </body>
 </html>

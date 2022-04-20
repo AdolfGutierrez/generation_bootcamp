@@ -1,0 +1,27 @@
+.formulario{
+    background-color: green;
+    color: white;
+    padding: 50px;
+    width: 330px;
+    margin: 0 auto;
+    
+}
+.espaciado{
+    padding-left: 30px;
+}
+label{
+    display: inline-block;
+    width: 80px;
+}
+input{
+    border: 3px solid red;
+}
+.morado{
+    border: 3px solid blueviolet;
+}
+.boton{
+    border-top: 2px dashed;
+}
+.btn{
+    border: 0ch;
+}
