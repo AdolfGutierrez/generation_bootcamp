@@ -1,23 +1,32 @@
 .Formulario{
     background-color: green;
-    padding: 80px;
-    color: aliceblue;
+    color: white;
+    padding: 50px;
+    width: 330px;
+    margin: 0 auto;
 }
-.datosComprado{
-    padding: 10px;
-   
-    
+.espaciado{
+    padding-left: 30px;
 }
-.datosTarjeta{
-    background-color: green;
-}
-.acomodo{
-    padding: 2px;
+label{
     display: inline-block;
     width: 80px;
-    height: autp;   
 }
-.contorno{
-    border-color: red;
-    padding: 2px;
+input{
+    border: 2px solid red;
+    padding-right: 40px;
+}
+
+.boton{
+    /* falta bajas la linea punteada */
+    border-top: 1px dashed ;
+    padding:20px;
+    width: 110px;
+    
+}
+
+.btn{
+    border: 5px;
+    padding: 4px;
+    border-radius: 5%;
 }

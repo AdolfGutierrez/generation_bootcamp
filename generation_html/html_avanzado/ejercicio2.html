@@ -13,74 +13,37 @@
 
       
     <form class="Formulario">
+        <p>Datos del comprador</p>
 
-        <h1 class="datosComprado"> Datos del comprador</h1>
-
-        <div class="nombre" >
-
-            <label class="acomodo" for="nombre">Nombre</label>
-            <input class="contorno" type="text" name="nombre" id="nombre" placeholder="Escribe tu nombre">
-
+        <div class="espaciado" >
+            <label for="">Nombre</label>
+            <input type="text" placeholder="Escribe tu nombre completo"><br>
+            <label >Email</label>
+            <input type="email" placeholder="ejemplo@um.es" ><br>
+            <label for="">Teléfono</label>
+            <input type="tel" placeholder="Ej. +34668899999"><br>
+            <label for="">Pais</label>
+            <input type="email"><br>
         </div>
 
-        <div class="coreo">
-
-            <label  class="acomodo" for="email">Email</label>
-            <input class="contorno" type="email" name="email" id="correo" placeholder="ejemplo@um.es">
-
-        </div>
-
-        <div class="telefono">
-
-            <label class="acomodo" for="telefono">Telefono</label>
-            <input class="contorno" type="tel" name="tel" id="tel" placeholder="Ej. +346688999999">
-
-        </div>
-
-        <div class="pais">
-
-            <label class="acomodo" for="pais">Pais</label>
-            <input class="contorno" type="text" id="pais">
-
-        </div>
-
-
-
-
-
-
-        <h1 class="datosTarjeta">Datos de la tarjeta de credito o debito</h1>
-
-
-        <div class="numero2">
-
-            <label for="numero">Número</label>
-            <input  class="contorno" type="number" name="numero" id="numer" placeholder="Ej. 5555-4444-3333-2222">
-
-        </div>
-
-        <div class="Nombre">
-
-            <label for="nombre">Nombre</label>
-            <input class="contorno" type="text" name="nombre" id="nombre2" placeholder="Nombre que figura en la tarjeta" size="30px">
-
-        </div>
-
-        <div class="enviar">
-
-            <input  class="btn.enviar" type="submit" value="Confirmar pedido">
-
-        </div>
-
-
-    
+        <p>Datos del la tarjeta de crédito o débito</p>
         
+        <div class="espaciado">
+            <!-- falta completar la palabra "tarjeta del segundo imput" -->
 
-        
-        
-        
+            <label for="">Numero</label>
+            <input type="tel" placeholder="Ej. 5555-4444-3333-2222"><br>
+            <label for="">Nombre</label>
+            <input type="text" placeholder="Nombre que figura en la tarjeta"><br>
+            
 
+        </div>
 
+        <div class="boton" >
+            <input class="btn" type="submit" value="Confirmar pedido">
+
+        </div>
     </form>
+    
 </body>
 </html>
