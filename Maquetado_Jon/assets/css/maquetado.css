@@ -16,12 +16,13 @@ label{
 input{
     border: 3px solid red;
 }
-.morado{
-    border: 3px solid blueviolet;
-}
+
 .boton{
-    border-top: 2px dashed;
+    border-top: 2px dashed ;
+    padding:20px
 }
 .btn{
-    border: 0ch;
+    border: 5px;
+    padding: 4px;
+    border-radius: 5%;
 }
