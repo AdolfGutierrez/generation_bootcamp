@@ -6,12 +6,12 @@
    selecciona una fuente, compiar el link de enlace en index y copiar el codigo de css
    y pegarlo en .css y guardar para hacer los cambios en los textos que se crearon*/
    
-*{
+
     /* font-family: 'Shadows Into Light', cursive; ------1*/
     /* font-family: 'Gloria Hallelujah', cursive; -------2*/
    /*  font-family: 'Shadows Into Light', cursive; ------2*/
    /* font-family: 'Gochi Hand', cursive; ---------------3 */
-}
+
 
 h1{
     font-family: 'Gochi Hand', cursive;

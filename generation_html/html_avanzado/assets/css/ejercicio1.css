@@ -1,10 +1,13 @@
+body{
+    background-color: aquamarine;
+}
+table{
+    background-color: aquamarine;
+    margin: 0 auto;
+}
+h1{
+    text-align: center;
+}
 .cabecera{
-    padding-right: 500px;
-}
-.naranja{
-    background-color: orangered;
-
-}
-.negro{
-    color: black;
+    padding-right: 50px;
 }
