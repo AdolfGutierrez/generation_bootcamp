@@ -1,11 +1,22 @@
+
 #violeta{
     background-color: violet;
-
 }
+
 #rojo{
-    background-color: rgba(248, 67, 1, 0.671);
+    background-color: rgba(248, 67, 1, 0.671);   
 }
 
 #rosa{
-    border: 3px palevioletred;
+    border: 3px palevioletred;  
+}
+
+.cuadrado{
+    margin: 10px;
+    margin-left: 500px;
+    margin-right: 500px;
+  
+}
+#titulo{
+    text-align: center;
 }
