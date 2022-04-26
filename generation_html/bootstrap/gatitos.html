@@ -16,7 +16,7 @@
   <body>
     <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: rgb(0, 0, 0);">
         <div class="container">
-          <a class="navbar-brand" href="#">
+          <a class="navbar-brand" href="#carouselExampleControls">
               <img class="img-logo" src="assets/img/logo.png" alt=""></a>
 
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -25,16 +25,16 @@
           <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav ml-auto">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+                <a class="nav-link active" aria-current="page" href="#inicio">Inicio</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Adopta</a>
+                <a class="nav-link" href="#imagenes">Imagenes</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Memes</a>
+                <a class="nav-link" href="#video">Video</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Imagenes</a>
+                <a class="nav-link" href="#adoptar">Adopta</a>
               </li>
             </ul>
           </div>
@@ -42,6 +42,14 @@
     </nav>
 
     <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+
+      <div class="pantalla" >
+        <div class="cuadro">
+          <h1>Cats4U</h1>
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Culpa fugiat sapiente perspiciatis odio corrupti cupiditate. Incidunt, amet et fugit, doloribus odio magni, quos eaque sequi iusto molestias consectetur ut officiis.</p>
+        </div>
+
+      </div>
         <div class="carousel-inner">
           <div class="carousel-item active">
             <img src="https://cmkt-image-prd.freetls.fastly.net/0.1.0/ps/1055796/910/569/m2/fpnw/wm1/iik4reig0tgpcq4jpoy02qg6vcnpcplh5dzgmlitbojddtctch8rwfvpv15omyrz-.jpg?1457169493&s=f717b0035d5c111c67be86a879f85f0a" class="d-block w-100 img-carrusel" alt="...">
@@ -125,8 +133,8 @@
       <div id="video" class="bg-dark" >
 
         <div class="container" >
-          <div class="row">
-            <div class="col" >
+          <div class="row aling-items-center">
+            <div class="col-md aling-selfe-center" >
               <iframe src="https://www.youtube.com/watch?v=ce0LPDPV5NE
               " frameborder=""></iframe>
             </div>
@@ -144,12 +152,12 @@
       <div id="adoptar" class="mt-5"  >
           <div class="container">
               <div class="row" >
-                  <div class="col text-black" >
+                  <div class="col-md text-black" >
                     <h2>Adoptame</h2>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime laboriosam odio possimus nostrum, officia neque cupiditate provident ipsum. Modi voluptatum dicta vero tempore rerum voluptas eligendi quos nostrum, ex inventore.</p>
-                    <button type="button" class="btn btn-dark">Saber más</button>
+                    <button type="button" class="btn mb-4 btn-dark">Saber más</button>
                   </div>
-                  <div class="col bg-dark text-white p-5">
+                  <div class="col-md bg-dark text-white p-5">
                     <form class="text-white" >
                         <div class="form-row"  >
                           <div class="form-group col-md-6">
@@ -201,6 +209,12 @@
               </div>
           </div>
       </div>
+
+      <footer class="bg-dark text-white text-center mt-5">
+        <p class="m-0 p-4" > Todos los derechos reservados</p>
+
+
+      </footer>
     
 
     
@@ -208,6 +222,10 @@
     <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>
+
+    <!-- scroll -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="assets/js/scrollReveals.js" ></script>
 
    
   </body>
