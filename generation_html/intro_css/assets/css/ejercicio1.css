@@ -1,22 +1,44 @@
 
-#violeta{
-    background-color: violet;
-}
-
-#rojo{
-    background-color: rgba(248, 67, 1, 0.671);   
-}
-
-#rosa{
-    border: 3px palevioletred;  
-}
-
-.cuadrado{
-    margin: 10px;
-    margin-left: 500px;
-    margin-right: 500px;
-  
-}
-#titulo{
+nav h1{
     text-align: center;
+    padding: 20px 30px;
+    font-size: 40px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: italic;
 }
+
+main{
+    font-weight: 600;
+    text-transform:uppercase ;
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: 2px;
+    margin: 20px 105px;
+    padding: o 10px;
+
+}
+.t-1{
+    background-color: violet;
+    padding: 10px;
+}
+
+.t-2{
+    background-color: rgba(248, 67, 1, 0.671);   
+    padding: 10px;
+    border-radius: 5px;
+    border: 2px solid rgba(255, 68, 0, 0.521);
+}
+
+.t-3{
+    border-left: rgb(177, 65, 84) solid 5px;
+    padding: 10px;
+    background-color: #cdcdcd20;;
+}
+
+.t-4{
+   padding: 10px;
+  border-bottom:  rgb(177, 65, 84) solid 2px;
+  background-color: #cdcdcd20;
+  border-top: rgb(177, 65, 84) solid 2px;
+}
+
