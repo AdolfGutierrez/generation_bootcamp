@@ -1,21 +1,39 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
-    <title>ejercicio1_manejadoresDeEventos</title>
-
+    <title>Document</title>
 </head>
 <body>
-    <h1>Ejercicio de evento</h1>
-    <p id="par" ></p>
-    <button id="reset">Reiniciar</button>
-
-
-    <script src="assets/js/ejercicio1_eventos.js" ></script>
-
-
+    <style>
+        div {
+            border-radius: 1px;
+        }
+        .contInput {
+            display: flex;
+            flex-direction: column;
+            margin: 1rem 3rem;
+        }
+        .contOutput {
+            display: flex;
+            flex-direction: column;
+            margin: 1rem 3rem;
+        }
+        textarea {
+            border-bottom: 2px solid rgb(253, 52, 85);
+        }
+    </style>
+    <h1>Ejercicio 1</h1>
+    <div class="contInput">
+        <label for="text">Ingresa un texto</label>
+        <textarea name="text" id="textIn" cols="40" rows="10"></textarea>
+    </div>
+    <div class="contOutput">
+        <label for="text">Esto fue lo que pusiste</label>
+        <textarea name="text" id="textOut" cols="40" rows="10"></textarea>
+    </div>
+    <script src="assets/JS/ejercicio1.js"></script>
 </body>
 </html>
