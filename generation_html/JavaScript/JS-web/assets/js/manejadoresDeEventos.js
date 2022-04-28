@@ -1,32 +1,31 @@
-window.addEventListener("load", function(){
-    this.alert("se ha terminado de cargar la pagina")
-})
-
-function saludar(){
-    alert("hola")
+function saludar() {
+    alert("Hola, que haces?");
 }
 
+/**
+ * Manejador de eventos semánticos
+ */
 
-/* manejador de eventos semanticos = maneja una sola funcion por elemento */
-const $botonSemantico = document.getElementById("evento-semantico")
+const $btnSemantico = document.getElementById('btnSemantico');
 
-$botonSemantico.onclick = saludar
-$botonSemantico.onclick = function(evento){
-    /* alert("hola desde un manejador semantico") */
-    console.log(evento.target)
+$btnSemantico.onmouseover = saludar;
+
+const $btnSemAnonimFunction = document.getElementById('btnSemAnonimFunction');
+$btnSemAnonimFunction.onclick = function (evento){
+    setTimeout(() => {
+    console.log(evento);
+    }, 3000);
 }
 
-/* manejador de eventos multiples = maneja distintas ejecuciones o funciones y al mismo tiempo*/
-const $botonMultiple = document.getElementById("evento-multiple")
-
-
-$botonMultiple.addEventListener("click", saludarMultiple)
-$botonMultiple.addEventListener("click", function(e){
-    console.log(e.target)
-})
-
-function saludarMultiple(){
-    alert("hola desde manejador multiple")
-}
-
+/**
+ * Manejador de eventos múltiples
+ */
+const $btnEventoMultiple = document.getElementById('btnEventoMultiple');
+$btnEventoMultiple.addEventListener('click', function (evento){
+    setTimeout(() => {
+        $btnEventoMultiple.style.backgroundColor = 'red';
+        $btnEventoMultiple.style.color = 'white';
+        console.log(evento.target);
+    }, 2000);
+});
 
