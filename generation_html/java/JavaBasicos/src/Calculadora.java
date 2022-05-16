@@ -6,6 +6,7 @@ import java.util.Scanner;
 public class Calculadora {
 
 	public static void main(String[] args) {
+		  Scanner calc = new Scanner(System.in);
 		
 	    System.out.println("1) Suma");   
 		System.out.println("2) Resta");
@@ -13,7 +14,7 @@ public class Calculadora {
 	    System.out.println("4) Division");
 	    
 	    System.out.print("Elije una opción: ");
-	    Scanner calc = new Scanner(System.in);
+	  
 		int op=calc.nextInt();
 		
 		switch(op){
