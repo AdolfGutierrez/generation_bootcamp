@@ -10,7 +10,7 @@ public class CalculadoraGeometrica {
 		String mensaje=p.mensaje();
 		System.out.println(mensaje);
 		
-		double pCuadrado=p.pCuadrado(5);
+		double pCuadrado=p.pCuadrado(2);
 		System.out.println("El perimetro del cuadrado es "  + (pCuadrado));
 		
 		
@@ -27,7 +27,7 @@ public class CalculadoraGeometrica {
 		System.out.println(mensaje2);
 	
 		
-		double aCuadrado=a.aCuadrado(2);
+		double aCuadrado=a.aCuadrado(3);
 		System.out.println("El area del circulo es "  + (aCuadrado));
 		
 		double aTriangulo=a.aTriangulo(2, 5);
