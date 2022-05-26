@@ -11,7 +11,7 @@ public class Calculadora {
 	    System.out.println("1) Suma");   
 		System.out.println("2) Resta");
 	    System.out.println("3) Multiplicacion");
-	    System.out.println("4) Division");
+	    System.out.println("4) Division\n");
 	    
 	    System.out.print("Elije una opción: ");
 	  
@@ -20,7 +20,7 @@ public class Calculadora {
 		switch(op){
 		case 1:
 			
-			System.out.println("Escribe dos numeros a sumar");
+			System.out.println("Escribe dos numeros a sumar\n");
 			System.out.print("Primer numero ");
 			int num1=calc.nextInt();
 			System.out.print("Segundo numero ");

@@ -4,7 +4,7 @@ public class Perimetro {
 	
 	
 	public String mensaje() {
-		String mensaje="Perimetros";
+		String mensaje="Calcular Perimetros";
 		return mensaje; 
 	}
 	

@@ -3,10 +3,9 @@ package com.perritos;
 public class PruebaPerro {
 
 	public static void main(String[] args) {
-		
 		//Instancias = crear un objeto
 		
-		Perro perro1 = new Perro("Tyron", 4);
+		Perro perro1 = new Perro("Moly", 4);
 		
 		//cabiar sus atributos
 		perro1.raza="PitBull";
@@ -14,7 +13,7 @@ public class PruebaPerro {
 		
 		perro1.ladrar();
 		int edadP = perro1.edadPerruna();
-		System.out.println("El perro Tyron tiene " + (edadP) + " años de edad");
+		System.out.println("El perro Moly tiene " + (edadP) + " años de edad");
 		
 		
 		Perro perro2=new Perro("Miller", 3);
@@ -30,7 +29,7 @@ public class PruebaPerro {
 		
 		perro2.ladrar();
 		int edadPe=perro2.edadPerruna();
-		System.out.println("El perro Miller tiene " + (edadP) + " años de edad");
+		System.out.println("El perro Myller tiene " + (edadP) + " años de edad");
 		
 
 	}

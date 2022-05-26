@@ -6,7 +6,10 @@ public class Ejercicio1 {
 		
 		//Crear una aplicación que reciba un int entre 1 y 10 y que regrese un mensaje según la calificación ingresada.
 		
-		int n1=-2;
+		Scanner sc=new Scanner(System.in);
+		System.out.println("Ingresa un numero: ");
+		int n1=sc.nextInt();
+		
 		
 		if (n1 <= 3) {
 			System.out.println("Failed!");

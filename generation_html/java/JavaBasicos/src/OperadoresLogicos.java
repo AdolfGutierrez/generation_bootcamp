@@ -9,8 +9,8 @@ public class OperadoresLogicos {
 		num=45;
 		num=Integer.parseInt("6");
 		
-//		System.out.println(num);
-		
+		System.out.println(num);
+
 		//Operadores de comparacion
 		
 		int num1, num2;

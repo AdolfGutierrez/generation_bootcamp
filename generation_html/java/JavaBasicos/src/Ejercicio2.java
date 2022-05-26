@@ -17,17 +17,17 @@ public class Ejercicio2 {
         
         //CALCULO
         imc= p/(e*e);
-        System.out.print("SU Indice de Masa Muscular ES: " + imc);
+        System.out.print("Su Indice de Masa Corporal es: " + imc);
         
         //IMC POR PERSONA
         if (imc<18.5) {
-            System.out.print("BAJO PESO");
+            System.out.print(" BAJO PESO");
         } else if ( imc<=24.9) {
-            System.out.print(  "NORMAL");
+            System.out.print(  " NORMAL");
         } else if ( imc<=29.9) {
-            System.out.print(  "SOBREPESO");
+            System.out.print(  " SOBREPESO");
         } else {
-            System.out.print("OBESIDAD");
+            System.out.print(" OBESIDAD");
         }
     }
  

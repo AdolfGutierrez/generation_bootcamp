@@ -4,8 +4,9 @@ public class FlujoDeControl {
 
     public static void main(String[] args) {
         
+    	//SCANNER nos permite pedir al usuario la entrada de datos desde el teclado
     	Scanner entrada = new Scanner(System.in); 
-        System.out.print("¿Cual es tu edad? ");
+        System.out.print("¿Cual es tu edad? ");       
         int edad = entrada.nextInt(); //.nextInt nos permite ingresar un numero entero a consola
         
         if (edad >= 18) {
@@ -22,7 +23,7 @@ public class FlujoDeControl {
         String mensaje = (edad >= 18) ? "Eres un adulto joven x2" : "Eres menor de edad x2";
         System.out.println(mensaje);
         
-        System.out.print("¿en que dia estamos? ");
+        System.out.print("\n¿en que dia estamos? ");        
 		entrada.nextLine(); //.nextLine nos permite ingresar palabras en consola
 		String dia=entrada.nextLine();
 		entrada.close();

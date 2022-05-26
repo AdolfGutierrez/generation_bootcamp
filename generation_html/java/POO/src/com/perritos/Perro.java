@@ -1,17 +1,15 @@
 package com.perritos;
 
 public class Perro {
-	//dentro de una clase podemos tener metodos 
-	
-	//atributos o propiedades
+	//atributos o propiedades de la clase Perro
 	
 	String nombre; 
 	int edad; 
 	String raza;
 	String tamanio;
 	
-	//constructor es un metodo y se usa public y en java se tiene que llamr con el 	mismo nombre de la clase
-	
+//	constructor es un metodo  y se tiene que nombrar con el mismo nombre de la clase
+//	this es un operador que nos permite llamar los atributos de una clase
 	public Perro(String nombre, int edad) {
 		this.nombre=nombre;
 		this.edad=edad;
