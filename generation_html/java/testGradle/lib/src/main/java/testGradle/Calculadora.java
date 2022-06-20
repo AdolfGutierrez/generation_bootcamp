@@ -4,12 +4,17 @@ public class Calculadora {
 	public int suma(int a, int b){
 		return a+b;	
 	}
-	public int suma1(int a, int b){
-		return a+b;	
+	public int resta(int a, int b){
+		return a-b;	
 	}
 	
 	public double multiplicacion(double a, double b) {
 		return a*b;
 	}
+	public double division( int a, int b) {
+		return a/b;
+		
+	}
+	
 }
 

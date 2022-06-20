@@ -38,13 +38,7 @@ public class Main {
 		charmander.araniar();
 		charmander.volar();
 		charmander.lanzaLlamas();
-		
 		charmander.saludar("Hola");
-		
-		
-		
-		
-		
 		
 
 	}

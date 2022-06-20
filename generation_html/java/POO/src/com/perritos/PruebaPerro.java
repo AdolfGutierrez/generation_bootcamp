@@ -19,8 +19,7 @@ public class PruebaPerro {
 		Perro perro2=new Perro("Miller", 3);
 		
 		//llamada del metodo estatico
-		perro1.mensaje();
-		
+	
 		Perro.mensaje();
 		
 		//cabiar sus atributos

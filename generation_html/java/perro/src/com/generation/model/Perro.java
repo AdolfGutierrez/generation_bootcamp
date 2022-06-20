@@ -17,7 +17,9 @@ public class Perro {
 	HashMap<Integer, String>();		
 	
 	//constructor de la clase perro 
-	public Perro(String nombre,String raza, String tamanio,int edad,String color) {
+	public Perro(String nombre,String raza, 
+			String tamanio,int edad,String color) 
+	{	
 		this.nombre=nombre; 
 		this.raza=raza;
 		this.tamanio=tamanio;

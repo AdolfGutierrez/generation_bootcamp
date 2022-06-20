@@ -9,27 +9,45 @@ public class PruebaPerro {
 		Perro denzel=new Perro("Denzel","PitBull","XL", 3, "Negro");
 		System.out.println(denzel);
 		
+		
 		//llamada de los metodos estaticos
 		denzel.setHumano("Adolf");
+		System.out.println(Perro.buscarHumano(1));
 		denzel.comer();
 		denzel.dormir();
 		denzel.jugar();
 		denzel.sentar();
 		denzel.correr();
+		System.out.println("\n");
 		
-		Perro miller=new Perro("Miller","BullTerrier","X",2,"Blanco");
-		System.out.println(miller);
+		Perro moly=new Perro("Moly","BullTerrier","X",2,"Blanco");
+		System.out.println(moly);
 		
 		//llamada de los metodos estaticos
-		miller.setHumano("Sofia");
-		miller.comer();
-		miller.dormir();
-		miller.jugar();
-		miller.sentar();
-		miller.correr();
 		
-		System.out.println(Perro.buscarHumano(1));
+		moly.setHumano("Sofia");
 		System.out.println(Perro.buscarHumano(2));
+		moly.comer();
+		moly.dormir();
+		moly.jugar();
+		moly.sentar();
+		moly.correr();
+		System.out.println("\n");
+		
+		Perro miler=new Perro("Miler","dalmata","grande",2,"azul");
+		System.out.println(miler);
+		
+		miler.setHumano("Mario");
+		System.out.println(Perro.buscarHumano(3));
+		miler.comer();
+		miler.correr();
+		miler.dormir();
+		miler.jugar();
+		miler.sentar();
+		
+		
+		
+		
 	}
 
 }
